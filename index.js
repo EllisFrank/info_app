@@ -11,7 +11,7 @@ const app=express();
 import mongoose from "mongoose";
 
 // use this port for our server
-const port=5000;
+const PORT = process.env.PORT?? 5000;
 
 
 
